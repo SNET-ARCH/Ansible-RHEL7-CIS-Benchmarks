@@ -5,5 +5,5 @@
   gather_facts: true
   become: yes
 
-  roles:
+  tasks:
     - Ansible-RHEL7-CIS-Benchmarks 
