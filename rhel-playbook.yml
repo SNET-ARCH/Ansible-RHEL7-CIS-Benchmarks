@@ -11,7 +11,7 @@
     cis_apply_level_2_profile: true    # Whether Level 2 of the benchmark should be applied
     cis_level_2_exclusions:
       - 4.1.2
-      - 4.1.0
+      - 4.1
     
   #vars:
   #  cis_level_1_exclusions:
