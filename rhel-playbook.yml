@@ -4,7 +4,7 @@
   connection: local
   gather_facts: true
   become: yes
-  user: rotero1
+  user: root
   vars:
     cis_target_os_distribution: "RedHat"
     cis_apply_level_1_profile: false    # Whether Level 1 of the benchmark should be applied
