@@ -40,6 +40,8 @@
        - 2.2.3 # Ensure Avahi Server is not enabled
        - 2.2.4 # Ensure CUPS is not enabled
        - 2.2.5 # Ensure DHCP Server is not enabled
+       - 2.2.6 # Ensure LDAP server is not enabled
+       - 2.2.7 # Ensure NFS and RPC Bind services is not enabled
      # - 4.1.2
      # - '4.1'
  
