@@ -4,6 +4,9 @@
   connection: local
   gather_facts: true
   become: yes
-  user: rotero1
+  ansible_host: '10.5.32.203'
+  ansible_become: true
+  ansible_user: rotero1
+#  user: rotero1
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
