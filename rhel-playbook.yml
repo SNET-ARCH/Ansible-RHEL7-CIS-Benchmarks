@@ -6,7 +6,7 @@
   become: yes
   user: rotero1
   vars:
-    cis_target_os_distribution: "CentOS"
+    cis_target_os_distribution: "RedHat"
     cis_apply_level_1_profile: false    # Whether Level 1 of the benchmark should be applied
     cis_apply_level_2_profile: true    # Whether Level 2 of the benchmark should be applied
     cis_level_2_exclusions:
