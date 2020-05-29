@@ -1,18 +1,9 @@
       
 ---
-- hosts: localhost
-  connection: local
+#- hosts: localhost
+#  connection: local
 #  gather_facts: true
   #become: yes
-  user: root
-  tasks: 
-    - name: make inventory
-      add_host:
-       name: '10.5.32.204'
-      ansible_host: '10.5.32.203'
-      ansible_become: true
-      ansible_user: root
-
 - hosts:  '10.5.32.204'
   become: true
   vars:
