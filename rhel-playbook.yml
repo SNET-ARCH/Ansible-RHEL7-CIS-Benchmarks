@@ -30,6 +30,7 @@
        - 2.1.6 # Ensure rsh server
        - 2.1.7 # Ensure talkd server
        - 2.1.8 # Ensure telnet server
+       - 2.1.9 # Ensure tftp server
      # - 4.1.2
      # - '4.1'
  
