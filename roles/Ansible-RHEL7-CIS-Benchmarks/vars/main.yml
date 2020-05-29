@@ -3,9 +3,10 @@
 
 # Modified by Ben to test impact
 # cis_target_os_distribution: "Amazon"
-cis_target_os_distribution:
-  - "RedHat"
-  - "CentOS"
+cis_target_os_distribution: "CentOS"
+#cis_target_os_distribution:
+#  - "RedHat"
+#  - "CentOS"
 cis_target_os_versions:
   - "7.1"
   - "7.2"
