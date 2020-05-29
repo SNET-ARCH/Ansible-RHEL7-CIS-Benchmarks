@@ -28,6 +28,7 @@
        - 2.1.4 # Ensure echo services are not enabled
        - 2.1.5 # Ensure time services are not enabled
        - 2.1.6 # Ensure rsh server
+       - 2.1.7 # Ensure talkd server
      # - 4.1.2
      # - '4.1'
  
