@@ -5,7 +5,9 @@
   gather_facts: true
   become: yes
   user: rotero1
-  
+  vars:
+    cis_target_os_distribution: "CentOS"
+    
   #vars:
   #  cis_level_1_exclusions:
   #    - 5.4.4
