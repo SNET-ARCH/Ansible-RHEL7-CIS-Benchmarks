@@ -60,7 +60,7 @@
        - 3.2.5
        - 3.2.6
        - 3.2.7
-       - 3.2.8
+       - 3.2.8 # Ensure TCP SYN Cookies is enabled
        
      # - 4.1.2
      # - '4.1'
