@@ -3,7 +3,7 @@
 - hosts: localhost
   connection: local
   gather_facts: true
-  become: yes
+  #become: yes
   user: root
   tasks: 
     - name: make inventory
@@ -14,7 +14,6 @@
       ansible_user: root
 
 - hosts:  '10.5.32.204'
-
   become: true
   vars:
     - ansible_ssh_user: rotero1 
