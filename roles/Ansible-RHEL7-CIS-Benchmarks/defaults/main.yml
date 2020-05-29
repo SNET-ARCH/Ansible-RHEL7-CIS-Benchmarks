@@ -4,7 +4,7 @@
 domain: dci.local
 
 # Linux vars (needs to be refactored)
-full_name: '{{ short_name }}.{{ domain }}'
+full_name: ushdcenadsl0006 #'{{ short_name }}.{{ domain }}'
 init_packages:
   - vim
   - nano
@@ -16,6 +16,6 @@ init_packages:
   - unzip
   - redhat-lsb-core
 
-dns1: 10.120.42.14
-dns2: 10.120.40.13
+#dns1: 10.120.42.14
+#dns2: 10.120.40.13
 
