@@ -1,6 +1,6 @@
 ---
 
-- hosts: localhost
+- hosts: 10.5.32.203
   connection: local
   gather_facts: true
   become: yes
