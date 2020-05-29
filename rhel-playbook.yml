@@ -33,6 +33,8 @@
        - 2.1.9 # Ensure tftp server
        - 2.1.10 # Ensure rsync server
        - 2.2.1.1 # Ensure ntp is installed
+       - 2.2.1.2 # Install NTP configuration
+       - 2.2.12 # Ensure SMB service
      # - 4.1.2
      # - '4.1'
  
