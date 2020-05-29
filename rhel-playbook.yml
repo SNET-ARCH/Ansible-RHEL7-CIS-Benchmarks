@@ -38,6 +38,8 @@
        - 2.2.12 # Ensure SMB service
        - 2.2.2 # Ensure X Window System
        - 2.2.3 # Ensure Avahi Server is not enabled
+       - 2.2.4 # Ensure CUPS is not enabled
+       - 2.2.5 # Ensure DHCP Server is not enabled
      # - 4.1.2
      # - '4.1'
  
