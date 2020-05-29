@@ -4,8 +4,7 @@
   connection: local
   gather_facts: true
   become: yes
-  vars:
-    - ansible_ssh_user: rotero1 
-    - ansible_ssh_pass: rotero1.1
+  user: rotero1
+  password: rotero1.1
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
