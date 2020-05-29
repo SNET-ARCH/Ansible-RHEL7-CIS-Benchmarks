@@ -43,6 +43,7 @@
        - 2.2.6 # Ensure LDAP server is not enabled
        - 2.2.7 # Ensure NFS and RPC Bind services is not enabled
        - 2.2.8 # Ensure DNS Bind/Named services are correct
+       - 2.2.9 # Ensure FTP services are correct
      # - 4.1.2
      # - '4.1'
  
