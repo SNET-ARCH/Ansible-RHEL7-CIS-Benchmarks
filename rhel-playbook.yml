@@ -45,7 +45,7 @@
        - 2.2.8 # Ensure DNS Bind/Named services are correct
        - 2.2.9 # Ensure FTP services are correct
        - 2.2.10 # Ensure HTTP services is not enabled
-       - 2.2.11
+       - 2.2.11 # Ensure POP3 and IMAP services is not enabled
        - 2.2.12
        - 2.2.13
        - 2.2.14
