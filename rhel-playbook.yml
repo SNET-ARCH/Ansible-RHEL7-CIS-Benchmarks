@@ -1,6 +1,6 @@
 ---
 
-- hosts: 10.5.32.204
+- hosts: all #10.5.32.204
   connection: local
   gather_facts: true
   become: yes
