@@ -76,7 +76,7 @@
        - 4.2.1.4 # 4.2.1.4 - Ensure rsyslog is configured to send logs to a remote log host
        - 4.2.1.5 # Ensure remote rsyslog messages are only accepted on designated log hosts
        - 4.2.2.1 # Check if syslog-ng is installed
-       - 4.3 # 4.3 Ensure logrotate is configured
+       - 4.3 # Ensure logrotate is configured
  
 
   #vars:
