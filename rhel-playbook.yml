@@ -96,7 +96,8 @@
        - 5.4.1.4
        - 5.4.2 # 5.4.2 Ensure system accounts are non-login
        - 5.4.4 # 5.4.4 Ensure default user umask is 027 or more restrictive
-       - 5.5 # Configure wheel group members who can access the su command
+       - 5.5 # Configure wheel group members who can access the su command - playbook was all hash tag out
+       - 6.1.14 # 6.1.14 Audit SGID executables
       
        
 
