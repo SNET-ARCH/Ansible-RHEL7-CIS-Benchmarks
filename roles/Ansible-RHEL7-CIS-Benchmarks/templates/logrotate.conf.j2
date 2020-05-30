@@ -2,23 +2,23 @@
 #
 # see "man logrotate" for details
 # rotate log files weekly
-weekly
-{{ cis_logrotate_period weekly }}
+# weekly
+{{ cis_logrotate_period }}
 
 # keep 4 weeks worth of backlogs
-rotate 4
-{{ cis_logrotate_keep rotate 4 }}
+# rotate 4
+{{ cis_logrotate_keep }}
 
 # create new (empty) log files after rotating old ones
-create
-{{ cis_logrotate_create create }}
+# create
+{{ cis_logrotate_create }}
 
 # use date as a suffix of the rotated file
-dateext
-{{ cis_logrotate_suffix datext }}
+# dateext
+{{ cis_logrotate_suffix }}
 
 # uncomment this if you want your log files compressed
-compress
+#compress
 
 # RPM packages drop log rotation information into this directory
 include /etc/logrotate.d
