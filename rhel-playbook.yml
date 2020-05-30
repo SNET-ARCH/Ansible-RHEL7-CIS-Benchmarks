@@ -78,10 +78,10 @@
        - 4.2.2.1 # Check if syslog-ng is installed
        - 4.3. # 4.3 - Ensure logrotate is configured - file was all hash tag out
        - 5.1.1 # 5.1.1 - Ensure cron daemon is enabled
-       - 5.1.2
-       - 5.1.3
-       - 5.1.4
-      
+       - 5.1.2 # 5.1.2 Ensure permissions on /etc/crontab are configured
+       - 5.1.3 # 5.1.3 Ensure permissions on /etc/cron.hourly are configured
+       - 5.1.4 # 5.1.4 Ensure permissions on /etc/cron.daily are configured
+       - 5.2.5 # 5.2.5 -  Ensure SSH MaxAuthTries is set to 4 or less
  
        
   #vars:
