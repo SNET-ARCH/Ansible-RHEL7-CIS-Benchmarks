@@ -9,7 +9,7 @@
   vars:
     cis_target_os_distribution: "RedHat"
     cis_apply_level_1_profile: true    # Whether Level 1 of the benchmark should be applied
-    cis_apply_level_2_profile: false    # Whether Level 2 of the benchmark should be applied
+    cis_apply_level_2_profile: true    # Whether Level 2 of the benchmark should be applied
     cis_level_1_exclusions:
        - 1.1.1.1
        - 1.3.1
