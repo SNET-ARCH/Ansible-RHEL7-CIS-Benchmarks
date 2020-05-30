@@ -67,6 +67,7 @@
        - 3.4.1 # 3.4.1 Ensure TCP Wrappers is installed - check
        - 3.4.2 # 3.4.2 - Ensure /etc/hosts.allow
        - 3.4.3 # 3.4.3 Ensure /etc/hosts.deny is configured
+       - 3.4.4 # 3.4.4 - Ensure permissions on /etc/hosts.allow are configured
      # - 4.1.2
      # - '4.1'
  
