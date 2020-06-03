@@ -7,8 +7,8 @@
 
    
   
-#  roles:
-#    - Ansible-RHEL7-CIS-Benchmarks 
+  roles:
+    - Ansible-RHEL7-CIS-Benchmarks 
 
  
 #  tasks:
