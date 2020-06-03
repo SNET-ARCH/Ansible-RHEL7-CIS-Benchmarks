@@ -4,7 +4,7 @@
   become: yes
 
   vars:
-    - 1.1.1.1.yml
+    - 1.1.1.1
 
    
   
