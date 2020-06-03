@@ -9,7 +9,7 @@
   vars:
     cis_target_os_distribution: "RedHat"
     cis_apply_level_1_profile: "{{ true_False }}" #true    # Whether Level 1 of the benchmark should be applied
-    cis_apply_level_2_profile: "{{ true_False }}" #false    # Whether Level 2 of the benchmark should be applied
+    cis_apply_level_2_profile: "{{ True_False }}" #false    # Whether Level 2 of the benchmark should be applied
     cis_level_1_exclusions:
        - 1.1.1.1
        - 1.1.18  ##  Checking or Setting permissions on the world-writable directories
