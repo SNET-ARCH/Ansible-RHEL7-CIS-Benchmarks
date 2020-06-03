@@ -1,0 +1,20 @@
+---
+# defaults file for init-server
+
+domain: dci.local
+
+# Linux vars (needs to be refactored)
+full_name: ushdcenadsl0006 #'{{ short_name }}.{{ domain }}'
+init_packages:
+  - vim
+  - nano
+  - ca-certificates
+  - ntp
+  - openssl
+  - bind-utils
+  - telnet
+  - unzip
+  - redhat-lsb-core
+
+#dns1: 10.120.42.14
+#dns2: 10.120.40.13
