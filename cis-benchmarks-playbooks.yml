@@ -5,7 +5,7 @@
   include_role:
     name: Ansible-RHEL7-CIS-Benchmarks
     with_items:
-      - '{{ item }}'
+      - tasks/level-1/'{{ item }}'
 
 #  roles:
 #    - Ansible-RHEL7-CIS-Benchmarks 
