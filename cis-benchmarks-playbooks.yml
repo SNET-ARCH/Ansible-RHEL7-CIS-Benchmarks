@@ -3,11 +3,12 @@
   gather_facts: true
   become: yes
   tasks:
-    - include_role:
-        name: Ansible-RHEL7-CIS-Benchmarks
-        tasks_from: level-1
-        with_items:
-          - "{{ hostvar }}.yml"
+    - include: roles/Ansible-RHEL7-CIS-Benchmarks/level-1/"{{ hostvar }}.yml"
+#    - include_role:
+#        name: 
+#        tasks_from: level-1
+#        with_items:
+#          - "{{ hostvar }}.yml"
 
 
 #  roles:
