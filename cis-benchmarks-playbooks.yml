@@ -2,11 +2,6 @@
   connection: local
   gather_facts: true
   become: yes
-  vars:
-    cis_target_os_distribution: "RedHat"
-    cis_apply_level_1_profile: true    # Whether Level 1 of the benchmark should be applied
-    cis_apply_level_1_profile: false
-    cis_apply_level_2_profile: true 
-    cis_apply_level_2_profile: false
+
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
