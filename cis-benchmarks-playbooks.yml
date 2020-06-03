@@ -5,3 +5,12 @@
 
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
+  tasks:
+    - include_tasks: "{{ item }}"
+#       with_fileglob: 
+    
+    
+    
+#    - include: "{{ item }}"
+#  with_fileglob:
+#    - roles/Ansible-RHEL7-CIS-Benchmarks/tasks/ path/to/your/tasks/*.yml
