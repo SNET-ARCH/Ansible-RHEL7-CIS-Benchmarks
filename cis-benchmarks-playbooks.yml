@@ -3,7 +3,8 @@
   gather_facts: true
   become: yes
   tasks:
-    - import_tasks: 1.1.1.1.yml
+    - include_tasks: /tasks/level-1/1.1.1.1.yml
+   
   
 #  roles:
 #    - Ansible-RHEL7-CIS-Benchmarks 
