@@ -15,12 +15,7 @@ cis_target_os_versions:
   - "7.6"
   - "7.7"
   - "7.8"
-cis_apply_level_1_profile:
-  - "true"
-  - "false"
-cis_apply_level_2_profile:
-  - "true"
-  - "false"
+
 cis_modprobe_conf_filename: "/etc/modprobe.d/CIS.conf"
 cis_aide_database_filename: "/var/lib/aide/aide.db.gz"
 # cis_grub_bootloader_filename: "/boot/grub/menu.lst"
