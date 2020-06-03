@@ -4,7 +4,6 @@
   become: yes
 
   vars:
-  cis_target_os_distribution: "RedHat"
   cis_apply_level_1_profile: true
     - 1.1.1.1.yml
 
