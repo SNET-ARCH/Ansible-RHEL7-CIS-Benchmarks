@@ -2,8 +2,11 @@
   connection: local
   gather_facts: true
   become: yes
-  roles: 
-    -  Ansible-RHEL7-CIS-Benchmarks/tasks/level-1/1.1.1.1.yml
+  import_tasks: '{{ hostvar}}.yml'
+  vars:
+    params:
+      files:
+        - roles/Ansible-RHEL7-CIS-Benchmarks/tasks/level-1/'{{ hostvar}}.yml'
 #  tasks:
 #    - include: roles/Ansible-RHEL7-CIS-Benchmarks/tasks/level-1/"{{ hostvar }}.yml"
 #    - include_role:
