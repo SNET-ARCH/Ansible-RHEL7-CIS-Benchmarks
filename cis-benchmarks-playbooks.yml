@@ -2,11 +2,15 @@
   connection: local
   gather_facts: true
   become: yes
+  include_role:
+    name: Ansible-RHEL7-CIS-Benchmarks
+    with_items:
+      - '{{ item }}'
 
-  roles:
-    - Ansible-RHEL7-CIS-Benchmarks 
-  tasks:
-    - include_tasks: "{{ item }}"
+#  roles:
+#    - Ansible-RHEL7-CIS-Benchmarks 
+#  tasks:
+#    - include_tasks: "{{ item }}"
 #       with_fileglob: 
     
     
