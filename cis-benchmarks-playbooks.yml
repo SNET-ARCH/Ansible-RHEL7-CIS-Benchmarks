@@ -5,8 +5,6 @@
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
 
-  vars:
-    - 1.1.1.1
 
    
   
