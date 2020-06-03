@@ -6,7 +6,7 @@
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
   tasks:
-    - include_tasks: "{{ item }}".yml
+    - include_tasks: "{{ item }}"
 #       with_fileglob: 
     
     
