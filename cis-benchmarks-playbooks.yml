@@ -5,7 +5,8 @@
   tasks:
     - include_role:
         name: Ansible-RHEL7-CIS-Benchmarks
-        tasks_from: "{{ hostvar }}.yml"
+        tasks_from: level-1/"{{ hostvar }}.yml"
+
 
 #  roles:
 #    - Ansible-RHEL7-CIS-Benchmarks 
