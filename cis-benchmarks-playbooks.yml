@@ -4,9 +4,8 @@
   become: yes
   tasks:
   
-    - name: Include a play after another play
-      include_tasks: 1.1.1.1.yml
-      static: no
+    - include_tasks: 1.1.1.1.yml
+  
 
    
   
