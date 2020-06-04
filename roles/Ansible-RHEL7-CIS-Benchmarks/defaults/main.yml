@@ -1,0 +1,9 @@
+# Standards: 1.1.32
+---
+
+###############################################
+# Values which modify the behaviour of the role
+###############################################
+- hosts: all
+  tasks:
+    - include: level-1.yml tags=1.1.1.1
