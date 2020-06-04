@@ -4,6 +4,6 @@
 ###############################################
 # Values which modify the behaviour of the role
 ###############################################
-- hosts: all
+- hosts: localhost
   tasks:
     - include: level-1.yml tags=1.1.1.1
