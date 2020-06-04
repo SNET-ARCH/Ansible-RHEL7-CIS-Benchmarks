@@ -2,8 +2,7 @@
   connection: local
   gather_facts: true
   become: yes
-  tags: 
-    - 1.1.1.1
+
   roles:
     - Ansible-RHEL7-CIS-Benchmarks 
 
