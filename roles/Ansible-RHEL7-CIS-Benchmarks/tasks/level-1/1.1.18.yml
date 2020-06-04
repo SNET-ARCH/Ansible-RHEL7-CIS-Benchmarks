@@ -4,7 +4,8 @@
 # 1.1.18 Ensure sticky bit is set on all world-writable directories
 
 - name: 1.1.18 - Ensure sticky bit is set on all world-writable directories - changed_when false
-  shell: "df --local -P | awk {'if (NR!=1) print $6'} | xargs -I '{}' find '{}' -xdev -type d \ ( -perm -0002 -a ! -perm -1000 \ ) 2>/dev/null"
+  shell: "df --local -P | awk {'if (NR!=1) print $6'} | xargs -I '{}' find '{}' -xdev -type d -perm -0002"
+# shell: "df --local -P | awk {'if (NR!=1) print $6'} | xargs -I '{}' find '{}' -xdev -type d \ ( -perm -0002 -a ! -perm -1000 \ ) 2>/dev/null"
   register: shell_output
   changed_when: false
   tags:
